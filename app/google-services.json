@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793704944017",
+    "firebase_url": "https://carefor-3f2dc-default-rtdb.firebaseio.com",
+    "project_id": "carefor-3f2dc",
+    "storage_bucket": "carefor-3f2dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793704944017:android:328fe17b0f8c3025fd8a30",
+        "android_client_info": {
+          "package_name": "com.example.carefor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793704944017-6kql0mm7abne6ls29v7sd46eqcnq2kip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQU6IySpugCzNAdgISeTLUYqKvjquhr0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793704944017-6kql0mm7abne6ls29v7sd46eqcnq2kip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

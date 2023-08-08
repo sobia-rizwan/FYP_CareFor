@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoogleMapActivity">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/acme"
+            android:text="@string/No_Experience"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/bt_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="Search" />
+
+            <TextView
+                android:id="@+id/experienced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-6dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Experienced Individual? Click Here."
+                android:textAlignment="center"
+                android:textColor="#5A5959"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

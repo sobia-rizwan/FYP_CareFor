@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CareFor</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="forget_Pass">Forgot Password?</string>
+    <string name="existing_user">Already an Existing User? Click Here.</string>
+    <string name="title_activity_main1">Main1Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">CareFor</string>
+    <string name="back_login">Back to Login?</string>
+    <string name="forget">Forget Password</string>
+    <string name="good_M">Good Morning Ali</string>
+    <string name="goodmorning">Hi there,</string>
+    <string name="user">User Name</string>
+    <string name="No_Experience">Have no Experience? Here is a list of NGOs where you can volunteer.</string>
+    <string name="FAQ">FAQ</string>
+    <string name="History">Gigs History</string>
+    <string name="Edit">Edit Profile</string>
+    <string name="Rating">Client Reviews</string>
+    <string name="setup">Gig Setup</string>
+    <string name="appointment">New Requests</string>
+    <string name="quote">“Caregiving is a constant learning experience. Most of us are untrained and learning as we go. Remain positive and stay on your path.”</string>
+    <string name="author">— Vivian Frazier</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="faqQ">Question</string>
+    <string name="FaqA">Answer</string>
+    <string name="RevA">Appointment</string>
+    <string name="RevR">Rating</string>
+    <string name="RevF">Feedback</string>
+    <string name="ReqUser">Client UserName</string>
+    <string name="ReqAdd">Client Address</string>
+    <string name="ReqApp">Appointment Type</string>
+    <string name="ReqDate">Date</string>
+    <string name="history_time">Timings</string>
+    <string name="history_rate">Rate</string>
+    <string name="Payment">Payment</string>
+    <string name="ChooseCaregiver">Choose Caregiver</string>
+    <string name="aboutus">At CareFor, we create value and happiness through caring for others. We strive to transform the way that home care is delivered by improving the quality of life, one Client at a time.</string>
+    <string name="aboutus1">Furthermore, we are true to our mission by providing the implementation of convenient platforms for the Caregivers. We will keep you involved in every decision making process, as we believe it is your right to make choices about your work/life balance.</string>
+    <string name="query">For queries Email us at</string>
+    <string name="email">carefor-support@gmail.com</string>
+</resources>

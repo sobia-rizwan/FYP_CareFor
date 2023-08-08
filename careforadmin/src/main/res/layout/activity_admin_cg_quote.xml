@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Admin_CG_Quote"
+    android:background="#F8F4F4"
+    android:orientation="vertical">
+<!--
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagebackground"
+
+            android:layout_width="414dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".27"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            app:layout_constraintVertical_bias="0.176" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="47dp"
+            android:src="@drawable/heart9"
+            app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imagebackground"
+            app:layout_constraintVertical_bias="0.228" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Quote"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.218">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Quote"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#5A5959"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="#616161" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Author"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#5A5959"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="#616161" />
+
+
+
+        <Button
+            android:id="@+id/save"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_green"
+            android:backgroundTint="#ffff"
+            android:text="UPDATE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <!--        <ProgressBar-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:id="@+id/progressbar1"-->
+        <!--            style="?android:attr/progressBarStyle"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginBottom="5dp"-->
+        <!--            android:visibility=""-->
+        <!--            android:indeterminateTint="#6AB3B2" />-->
+
+        <!--        <ProgressBar-->
+        <!--            android:id="@+id/progressbar2"-->
+        <!--            style="?android:attr/progressBarStyleHorizontal"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_marginStart="35dp"-->
+        <!--            android:layout_marginEnd="35dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:indeterminateTint="#6AB3B2"-->
+        <!--            android:visibility=""-->
+        <!--            android:layout_marginBottom="30dp"-->
+        <!--            android:progressDrawable="@drawable/progress_button"/>-->
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

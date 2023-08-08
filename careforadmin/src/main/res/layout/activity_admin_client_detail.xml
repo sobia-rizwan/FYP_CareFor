@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin_Client_Detail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagebackground"
+
+            android:layout_width="414dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent=".27"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo"
+            app:layout_constraintVertical_bias="0.176" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="47dp"
+            android:src="@drawable/heart9"
+            app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imagebackground"
+            app:layout_constraintVertical_bias="0.228" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="User Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/teal_700"
+        android:textSize="26sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Full Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailCNIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="CNIC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Email Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+<!--
+    <TextView
+        android:id="@+id/detailEXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Experience"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailClientGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Client Gender"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailGIG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Gig Type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Preferred Rate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Preferred Timings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="150dp">
+
+        <!--<com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            app:menu_colorNormal="@color/teal_250"
+            app:menu_colorPressed="@color/teal_700"
+            app:menu_fab_size="normal"
+            app:menu_icon="@drawable/ic_baseline_format_list_bulleted_24"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true">-->
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_24"
+            app:fab_colorNormal="@color/red1"
+            app:fab_showShadow="true"
+            app:fab_size="normal" />
+
+        <!-- </com.github.clans.fab.FloatingActionMenu>-->
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

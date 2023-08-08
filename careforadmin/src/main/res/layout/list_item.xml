@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/acme"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="NGO Name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/address"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/Name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/address" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/address"
+        android:ems="10"
+        android:fontFamily="@font/archivo"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Sector 5, Area no. 24"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/Address"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/call" />
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Address"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/phone"
+        android:fontFamily="@font/archivo"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="0333 1223345"
+        android:textSize="17sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/border2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:background="#808080" />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carefor">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/map_key" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareFor">
+        <activity
+            android:name=".Client_HistoryDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Client_HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_HistoryDetail"
+            android:exported="false" />
+        <activity
+            android:name=".CG_RequestDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Client_NewRequest"
+            android:exported="false" />
+        <activity
+            android:name=".Client_RequestDetail"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".ClientDashBoardActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".CGDashBoardActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".CG_EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Client_EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Client_ChooseCG"
+            android:exported="false" />
+        <activity
+            android:name=".Client_CG_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_FAQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_RequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CGSurvey"
+            android:exported="false" />
+        <activity
+            android:name=".ClientSurvey"
+            android:exported="false" />
+        <activity
+            android:name=".CGDashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CG_gigSetup"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

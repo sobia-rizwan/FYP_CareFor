@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin_CG_Surveydetail">
+
+    <ImageView
+        android:id="@+id/imagebackground"
+
+        android:layout_width="414dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image"
+        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/abeezee"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="47dp"
+        android:src="@drawable/heart9"
+        app:layout_constraintBottom_toBottomOf="@+id/imagebackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imagebackground"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagebackground"
+        app:layout_constraintVertical_bias="0.033">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Caregiver Details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/teal_700"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#5A5959"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/detailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Full Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#5A5959"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/detailCNIC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/abeezee"
+                android:text="CNIC"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#5A5959"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/detailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Address"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#5A5959"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/detailExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/abeezee"
+                android:text="Experience"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#5A5959"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/ViewCNIC"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_blue2"
+                        android:backgroundTint="#ffff"
+                        android:text="View CNIC DOC"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.23"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <Button
+                        android:id="@+id/ViewExp"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_blue2"
+                        android:backgroundTint="#ffff"
+                        android:text="View Experience"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.557"
+                        app:layout_constraintStart_toEndOf="@+id/ViewCNIC"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/Please"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/abeezee"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Please Select Caregiver Status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/AcceptBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        app:fab_showShadow="true"
+                        app:fab_size="normal"
+                        app:fab_colorNormal="#0EC515"
+                        android:src="@drawable/ic_baseline_check_24"
+                        app:fab_colorPressed="@color/green2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/StallBtn"
+                        app:layout_constraintHorizontal_bias="0.217"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0">
+
+
+                    </com.github.clans.fab.FloatingActionButton>
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/RejectBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_showShadow="true"
+                        app:fab_size="normal"
+                        android:src="@drawable/ic_baseline_clear_24"
+                        app:fab_colorNormal="@color/red1"
+                        app:fab_colorPressed="@color/red2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/StallBtn"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/AcceptBtn"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0">
+
+
+                    </com.github.clans.fab.FloatingActionButton>
+
+                    <com.github.clans.fab.FloatingActionButton
+                        android:id="@+id/StallBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_showShadow="true"
+                        app:fab_size="normal"
+                        android:src="@drawable/ic_baseline_pending_24"
+                        app:fab_colorNormal="@color/teal_250"
+                        app:fab_colorPressed="@color/teal_700"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.877"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0">
+
+                    </com.github.clans.fab.FloatingActionButton>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Accept"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#5A5959"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Reject"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#5A5959"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Pending"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#5A5959"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

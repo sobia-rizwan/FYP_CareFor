@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abeezee</item>
+        <item>@font/abeezee_italic</item>
+        <item>@font/acme</item>
+        <item>@font/aleo_bold_italic</item>
+        <item>@font/aleo_italic</item>
+        <item>@font/amaranth_bold_italic</item>
+        <item>@font/amaranth_italic</item>
+        <item>@font/andika_new_basic_italic</item>
+        <item>@font/antic_didone</item>
+        <item>@font/arimo_bold_italic</item>
+        <item>@font/epilogue_bold</item>
+    </array>
+</resources>
