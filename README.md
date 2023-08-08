@@ -28,10 +28,10 @@ The Authors of this Project are **Sobia Rizwan (1912169) & Ali Asghar Zaidi (191
     <td>Edit Quotation</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/f0985359-f387-4639-8c4b-7512b900a0f1" width=250 height=450></td>
-    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/5f5df764-597d-45fa-96c9-9db17b7d0c3d" width=250 height=450></td>
-    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/834759c5-ee4b-4ed8-a474-3eb6a7b5965e" width=250 height=450></td>
-   <td><img src= "https://github.com/cs1912169/FYP_CareFor/assets/101176552/a18499a3-79d4-4f01-b894-1a1e06c9f837" width=250 height=450></td>
+    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/f0985359-f387-4639-8c4b-7512b900a0f1" width=250 height=430></td>
+    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/5f5df764-597d-45fa-96c9-9db17b7d0c3d" width=250 height=430></td>
+    <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/834759c5-ee4b-4ed8-a474-3eb6a7b5965e" width=250 height=430></td>
+   <td><img src= "https://github.com/cs1912169/FYP_CareFor/assets/101176552/a18499a3-79d4-4f01-b894-1a1e06c9f837" width=250 height=430></td>
   </tr>
  </table>
 
