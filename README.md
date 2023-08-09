@@ -25,7 +25,7 @@ The Authors of this Project are **Sobia Rizwan (1912169) & Ali Asghar Zaidi (191
     <td>Admin Dashboard</td>
      <td>Send Notification</td>
      <td>Client Approval</td>
-    <td>Edit Quotation</td>
+    <td>Edit Quote</td>
   </tr>
   <tr>
     <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/f0985359-f387-4639-8c4b-7512b900a0f1" width=250 height=430></td>
@@ -38,9 +38,9 @@ The Authors of this Project are **Sobia Rizwan (1912169) & Ali Asghar Zaidi (191
   **- Caregiver & Client Portal**
 <table>
   <tr>
-    <td>Login</td>
+    <td>Forget Password</td>
+     <td>Login</td>
      <td>Sign up</td>
-     <td>Forget Password</td>
   </tr>
   <tr>
     <td><img src="https://github.com/cs1912169/FYP_CareFor/assets/101176552/4df7b81c-954b-477c-8461-90058ce4f9b8" width=230 height=480></td>
