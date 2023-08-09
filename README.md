@@ -16,7 +16,7 @@ This project is divided into two different applications, one for normal users (C
 
 ## Authors
 
-The Authors of this Project are **Sobia Rizwan (1912169) & Ali Asghar Zaidi (1912138)**.
+The Authors of this Project are **Sobia Rizwan (1912169) & [Ali Asghar Zaidi](https://github.com/AliAsgharZaidi) (1912138)**.
 
 ## Screenshots
 **- Admin Application**
