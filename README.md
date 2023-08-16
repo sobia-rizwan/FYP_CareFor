@@ -1,5 +1,5 @@
 # FYP_CareFor
-**This is an Final Year Project for SZABIST university (class of 2019) created by Sobia Rizwan (1912169) & Ali Asghar (1912138).**
+**This is the Final Year Project for SZABIST university (class of 2019) created by Sobia Rizwan (1912169) & Ali Asghar (1912138).**
 
 **‘CareFor’** is an android application which will be developed to cater the elderly and people with health conditions or certain impairments. Where the user or families that requires assistance for their loved one can easily contact an experienced individual offering their services regarding their needs, whether it be home assistance, medical appointments or any social activity.
 
